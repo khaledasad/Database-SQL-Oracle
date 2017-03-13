@@ -1,0 +1,56 @@
+SQL> get C:\Oracle\report1
+  1  SET PAGESIZE 40
+  2  SET LINESIZE 60
+  3  SET FEEDBACK OFF
+  4  TTITLE 'Semester Project|Purchase History'
+  5  BTITLE 'Khaled Asad'
+  6  BREAK ON customer_id SKIP 1
+  7  COL customer_id HEADING 'Customer ID' FORMAT 99
+  8  COL order_online_id HEADING 'Online Order ID' FORMAT 99
+  9  COL dates HEADING 'Date Purchase ' FORMAT A15
+ 10  -- Selects all customers that have made online order. It will show the customers id, 
+ 11  --online order id as well the date the perchuse was made.
+ 12  SELECT customer_id, online_order_id,dates FROM online_order_id
+ 13* ORDER BY 1;
+SQL> @ C:\Oracle\report1
+
+Tue Dec 06                                         page    1
+                      Semester Project
+                      Purchase History
+
+Customer ID ONLINE_ORDER_ID Date Purchase                   
+----------- --------------- ---------------                 
+          1               1 07-JUL-07                       
+                                                            
+          2               2 02-JUL-05                       
+                                                            
+          3               3 08-JUL-01                       
+                                                            
+          4               4 09-JUL-01                       
+                                                            
+          5               5 06-JUL-16                       
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        Khaled Asad
+SQL> spool off

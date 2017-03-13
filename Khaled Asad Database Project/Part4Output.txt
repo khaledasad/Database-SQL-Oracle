@@ -1,0 +1,105 @@
+
+                     Part 4: SQL Queries
+
+Last Name                 First Name                       Zip
+------------------------- ------------------------- ----------
+Phone                             
+-----------------------------------
+Ciganovic                 Marija                         30017 
+404-410-4444                       
+
+
+
+Price     Price
+--------- ------
+  $280,00 Low   
+  $376,00 High  
+  $450,00 High  
+ $2000,00 High  
+ $5687,20 High  
+
+
+Lowest Ca
+---------
+  $280,00
+
+
+Last Name                 Transmission Type                                
+------------------------- --------------------------------------------------
+Asad                      Manual                                            
+
+FIRST_NAME                LAST_NAME               
+------------------------- -------------------------
+Boby                      Whilis                   
+
+
+Color                     Material
+------------------------- --------------------------------------------------
+Interior Design
+---------------
+Yellow                    Steel                                              
+Exterior Design
+
+White                     Leather                                            
+Interior       
+
+Red                       Carbon Fiber                                       
+Exterior Design
+
+
+Color                     Material
+------------------------- --------------------------------------------------
+Interior Design
+---------------
+Gray                      Polyester                                          
+Interior       
+
+Gray                      Steel                                              
+Exterior Design
+
+Brown                     Leather                                            
+Interior       
+
+
+Color                     Material
+------------------------- --------------------------------------------------
+Interior Design
+---------------
+Blue                      Steel                                              
+Exterior Design
+
+Black                     Micro Fiber                                        
+Interior       
+
+Black                     Steel                                              
+Exterior Design
+
+
+ 9 rows selected 
+
+
+Oldest Purchase Newest Purchase
+--------------- ---------------
+08-JUL-01       06-JUL-16      
+
+FIRST_NAME                Date                                         Price   
+------------------------- -------------------------------------------- ---------
+Anissa                    2005 JULY      02                              $376,00
+Boby                      2016 JULY      06                              $280,00
+Khaled                    2007 JULY      07                              $450,00
+Marija                    2001 JULY      08                             $2000,00
+Robert                    2001 JULY      09                             $5687,20
+
+
+First Name                Last Name               
+------------------------- -------------------------
+Marija                    Ciganovic                
+
+Last Name                   Order ID Date Purchased
+------------------------- ---------- --------------
+Asad                               1 07-JUL-07     
+Logan                              2 02-JUL-05     
+Ciganovic                          3 08-JUL-01     
+Bryan                              4 09-JUL-01     
+Whilis                             5 06-JUL-16     
+
